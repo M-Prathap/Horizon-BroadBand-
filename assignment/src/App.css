@@ -1,0 +1,68 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.common-box {
+  width: 150px; 
+  height: 150px;
+  background-color: #e0e0e0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  border: 1px solid black; 
+}
+
+.box {
+  position: relative;
+  width: 100px;
+  height: 80px;
+  background-color: #c0392b;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: black;
+}
+
+.red-square {
+  width: 40px;
+  height: 40px;
+  background-color: #c0392b;
+  position: absolute;
+  border: 1px solid black; 
+}
+
+.center {
+  z-index: 1;
+}
+
+.top-left {
+  top: -15px;
+  left: -15px;
+}
+
+.bottom-left {
+  bottom: -15px;
+  left: -15px;
+}
+
+/* Black squares */
+.black-square {
+  width: 30px;
+  height: 30px;
+  background-color: black;
+  position: absolute;
+}
+
+.top-right {
+  top: -10px;
+  right: -10px;
+}
+
+.bottom-right {
+  bottom: -10px;
+  right: -10px;
+}
